@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" href="/img/pic.jpg">
+        
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>use this site to get weather details!</p>
+
+            <form>
+                <input placeholder="Type location to get forecast">
+                <button>Search</button>
+            </form>
+
+            <p id='message-1'></p>
+            <p id='message-2'></p>
+        </div>
+        
+        {{>footer}}
+    <script src="/js/app.js"></script>
+    </body>
+</html>
